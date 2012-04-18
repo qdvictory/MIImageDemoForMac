@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F173CBA4153F337E00A2BAEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBA3153F337E00A2BAEE /* Cocoa.framework */; };
+		F173CBAE153F337E00A2BAEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F173CBAC153F337E00A2BAEE /* InfoPlist.strings */; };
+		F173CBB0153F337E00A2BAEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CBAF153F337E00A2BAEE /* main.m */; };
+		F173CBB4153F337E00A2BAEE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F173CBB2153F337E00A2BAEE /* Credits.rtf */; };
+		F173CBB7153F337E00A2BAEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CBB6153F337E00A2BAEE /* AppDelegate.m */; };
+		F173CBBA153F337F00A2BAEE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F173CBB8153F337F00A2BAEE /* MainMenu.xib */; };
+		F173CBC2153F337F00A2BAEE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBC1153F337F00A2BAEE /* SenTestingKit.framework */; };
+		F173CBC3153F337F00A2BAEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBA3153F337E00A2BAEE /* Cocoa.framework */; };
+		F173CBCB153F337F00A2BAEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F173CBC9153F337F00A2BAEE /* InfoPlist.strings */; };
+		F173CBCE153F337F00A2BAEE /* MIImageDemoForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CBCD153F337F00A2BAEE /* MIImageDemoForMacTests.m */; };
+		F173CBD9153F33A400A2BAEE /* libMIDataForMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBD7153F33A400A2BAEE /* libMIDataForMac.a */; };
+		F173CBDB153F33B300A2BAEE /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = F173CBDA153F33B300A2BAEE /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F173CBC4153F337F00A2BAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F173CB96153F337E00A2BAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F173CB9E153F337E00A2BAEE;
+			remoteInfo = MIImageDemoForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F173CB9F153F337E00A2BAEE /* MIImageDemoForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIImageDemoForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F173CBA3153F337E00A2BAEE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F173CBA6153F337E00A2BAEE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F173CBA7153F337E00A2BAEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F173CBA8153F337E00A2BAEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F173CBAB153F337E00A2BAEE /* MIImageDemoForMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIImageDemoForMac-Info.plist"; sourceTree = "<group>"; };
+		F173CBAD153F337E00A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F173CBAF153F337E00A2BAEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F173CBB1153F337E00A2BAEE /* MIImageDemoForMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIImageDemoForMac-Prefix.pch"; sourceTree = "<group>"; };
+		F173CBB3153F337E00A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F173CBB5153F337E00A2BAEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F173CBB6153F337E00A2BAEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F173CBB9153F337F00A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F173CBC0153F337F00A2BAEE /* MIImageDemoForMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIImageDemoForMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F173CBC1153F337F00A2BAEE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F173CBC8153F337F00A2BAEE /* MIImageDemoForMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIImageDemoForMacTests-Info.plist"; sourceTree = "<group>"; };
+		F173CBCA153F337F00A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F173CBCC153F337F00A2BAEE /* MIImageDemoForMacTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIImageDemoForMacTests.h; sourceTree = "<group>"; };
+		F173CBCD153F337F00A2BAEE /* MIImageDemoForMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIImageDemoForMacTests.m; sourceTree = "<group>"; };
+		F173CBD7153F33A400A2BAEE /* libMIDataForMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMIDataForMac.a; path = MIImageDemoForMac/libMIDataForMac.a; sourceTree = "<group>"; };
+		F173CBD8153F33A400A2BAEE /* MIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIImage.h; path = MIImageDemoForMac/MIImage.h; sourceTree = "<group>"; };
+		F173CBDA153F33B300A2BAEE /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = MIImageDemoForMac/test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F173CB9C153F337E00A2BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBA4153F337E00A2BAEE /* Cocoa.framework in Frameworks */,
+				F173CBD9153F33A400A2BAEE /* libMIDataForMac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F173CBBC153F337F00A2BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBC2153F337F00A2BAEE /* SenTestingKit.framework in Frameworks */,
+				F173CBC3153F337F00A2BAEE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F173CB94153F337E00A2BAEE = {
+			isa = PBXGroup;
+			children = (
+				F173CBDA153F33B300A2BAEE /* test.png */,
+				F173CBD7153F33A400A2BAEE /* libMIDataForMac.a */,
+				F173CBD8153F33A400A2BAEE /* MIImage.h */,
+				F173CBA9153F337E00A2BAEE /* MIImageDemoForMac */,
+				F173CBC6153F337F00A2BAEE /* MIImageDemoForMacTests */,
+				F173CBA2153F337E00A2BAEE /* Frameworks */,
+				F173CBA0153F337E00A2BAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F173CBA0153F337E00A2BAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F173CB9F153F337E00A2BAEE /* MIImageDemoForMac.app */,
+				F173CBC0153F337F00A2BAEE /* MIImageDemoForMacTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F173CBA2153F337E00A2BAEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBA3153F337E00A2BAEE /* Cocoa.framework */,
+				F173CBC1153F337F00A2BAEE /* SenTestingKit.framework */,
+				F173CBA5153F337E00A2BAEE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F173CBA5153F337E00A2BAEE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBA6153F337E00A2BAEE /* AppKit.framework */,
+				F173CBA7153F337E00A2BAEE /* CoreData.framework */,
+				F173CBA8153F337E00A2BAEE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F173CBA9153F337E00A2BAEE /* MIImageDemoForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBB5153F337E00A2BAEE /* AppDelegate.h */,
+				F173CBB6153F337E00A2BAEE /* AppDelegate.m */,
+				F173CBB8153F337F00A2BAEE /* MainMenu.xib */,
+				F173CBAA153F337E00A2BAEE /* Supporting Files */,
+			);
+			path = MIImageDemoForMac;
+			sourceTree = "<group>";
+		};
+		F173CBAA153F337E00A2BAEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBAB153F337E00A2BAEE /* MIImageDemoForMac-Info.plist */,
+				F173CBAC153F337E00A2BAEE /* InfoPlist.strings */,
+				F173CBAF153F337E00A2BAEE /* main.m */,
+				F173CBB1153F337E00A2BAEE /* MIImageDemoForMac-Prefix.pch */,
+				F173CBB2153F337E00A2BAEE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F173CBC6153F337F00A2BAEE /* MIImageDemoForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBCC153F337F00A2BAEE /* MIImageDemoForMacTests.h */,
+				F173CBCD153F337F00A2BAEE /* MIImageDemoForMacTests.m */,
+				F173CBC7153F337F00A2BAEE /* Supporting Files */,
+			);
+			path = MIImageDemoForMacTests;
+			sourceTree = "<group>";
+		};
+		F173CBC7153F337F00A2BAEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBC8153F337F00A2BAEE /* MIImageDemoForMacTests-Info.plist */,
+				F173CBC9153F337F00A2BAEE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F173CB9E153F337E00A2BAEE /* MIImageDemoForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F173CBD1153F337F00A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForMac" */;
+			buildPhases = (
+				F173CB9B153F337E00A2BAEE /* Sources */,
+				F173CB9C153F337E00A2BAEE /* Frameworks */,
+				F173CB9D153F337E00A2BAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIImageDemoForMac;
+			productName = MIImageDemoForMac;
+			productReference = F173CB9F153F337E00A2BAEE /* MIImageDemoForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F173CBBF153F337F00A2BAEE /* MIImageDemoForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F173CBD4153F337F00A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForMacTests" */;
+			buildPhases = (
+				F173CBBB153F337F00A2BAEE /* Sources */,
+				F173CBBC153F337F00A2BAEE /* Frameworks */,
+				F173CBBD153F337F00A2BAEE /* Resources */,
+				F173CBBE153F337F00A2BAEE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F173CBC5153F337F00A2BAEE /* PBXTargetDependency */,
+			);
+			name = MIImageDemoForMacTests;
+			productName = MIImageDemoForMacTests;
+			productReference = F173CBC0153F337F00A2BAEE /* MIImageDemoForMacTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F173CB96153F337E00A2BAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Chlova;
+			};
+			buildConfigurationList = F173CB99153F337E00A2BAEE /* Build configuration list for PBXProject "MIImageDemoForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F173CB94153F337E00A2BAEE;
+			productRefGroup = F173CBA0153F337E00A2BAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F173CB9E153F337E00A2BAEE /* MIImageDemoForMac */,
+				F173CBBF153F337F00A2BAEE /* MIImageDemoForMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F173CB9D153F337E00A2BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBAE153F337E00A2BAEE /* InfoPlist.strings in Resources */,
+				F173CBB4153F337E00A2BAEE /* Credits.rtf in Resources */,
+				F173CBBA153F337F00A2BAEE /* MainMenu.xib in Resources */,
+				F173CBDB153F33B300A2BAEE /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F173CBBD153F337F00A2BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBCB153F337F00A2BAEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F173CBBE153F337F00A2BAEE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F173CB9B153F337E00A2BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBB0153F337E00A2BAEE /* main.m in Sources */,
+				F173CBB7153F337E00A2BAEE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F173CBBB153F337F00A2BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBCE153F337F00A2BAEE /* MIImageDemoForMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F173CBC5153F337F00A2BAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F173CB9E153F337E00A2BAEE /* MIImageDemoForMac */;
+			targetProxy = F173CBC4153F337F00A2BAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F173CBAC153F337E00A2BAEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CBAD153F337E00A2BAEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F173CBB2153F337E00A2BAEE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CBB3153F337E00A2BAEE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F173CBB8153F337F00A2BAEE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CBB9153F337F00A2BAEE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F173CBC9153F337F00A2BAEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CBCA153F337F00A2BAEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F173CBCF153F337F00A2BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F173CBD0153F337F00A2BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F173CBD2153F337F00A2BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForMac/MIImageDemoForMac-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForMac/MIImageDemoForMac-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MIImageDemoForMac\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F173CBD3153F337F00A2BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForMac/MIImageDemoForMac-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForMac/MIImageDemoForMac-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MIImageDemoForMac\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F173CBD5153F337F00A2BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIImageDemoForMac.app/Contents/MacOS/MIImageDemoForMac";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForMac/MIImageDemoForMac-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForMacTests/MIImageDemoForMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F173CBD6153F337F00A2BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIImageDemoForMac.app/Contents/MacOS/MIImageDemoForMac";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForMac/MIImageDemoForMac-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForMacTests/MIImageDemoForMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F173CB99153F337E00A2BAEE /* Build configuration list for PBXProject "MIImageDemoForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173CBCF153F337F00A2BAEE /* Debug */,
+				F173CBD0153F337F00A2BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F173CBD1153F337F00A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173CBD2153F337F00A2BAEE /* Debug */,
+				F173CBD3153F337F00A2BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F173CBD4153F337F00A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173CBD5153F337F00A2BAEE /* Debug */,
+				F173CBD6153F337F00A2BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F173CB96153F337E00A2BAEE /* Project object */;
+}
