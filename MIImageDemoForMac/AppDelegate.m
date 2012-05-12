@@ -22,12 +22,20 @@
 {
     // Insert code here to initialize your application
     
-    MIImage *mimage = [[MIImage alloc] initWithNamed:@"test.png" secret:@"123"];
-    NSImageView *imageview = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, 400,400)];
-    imageview.image = [mimage image];
-    [mimage release];
+    //get image with name
+    NSImageView *imageview = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, 320, 480)];
+    imageview.image = [MIImage imageWithNamed:@"test.png" secret:@"123"];
     [[self.window contentView] addSubview:imageview];
     [imageview release];
+    
+    //or 
+    
+//    //get image with path
+//    NSImageView *imageview = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, 320, 480)];
+//    imageview.image = [MIImage imageWithPath:[[NSBundle mainBundle] pathForResource:@"test.png" ofType:nil] secret:@"123"];
+//    [[self.window contentView] addSubview:imageview];
+//    [imageview release];
+
 }
 
 @end

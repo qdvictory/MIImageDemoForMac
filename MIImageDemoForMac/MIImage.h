@@ -10,9 +10,8 @@
 
 @interface MIImage : NSObject
 {
-    
+
 }
-- (id)initWithNamed:(NSString *)_str secret:(NSString *)_sec;
-- (id)initWithPath:(NSString *)_str secret:(NSString *)_sec;
-@property (retain,nonatomic) NSImage *image;
++ (NSImage *)imageWithNamed:(NSString *)_str secret:(NSString *)_sec;
++ (NSImage *)imageWithPath:(NSString *)_str secret:(NSString *)_sec;
 @end
